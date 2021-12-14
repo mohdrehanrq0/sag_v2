@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/sag/static/css/main.9c673b48.chunk.css",
+    "main.js": "/sag/static/js/main.98d89f93.chunk.js",
+    "main.js.map": "/sag/static/js/main.98d89f93.chunk.js.map",
+    "runtime-main.js": "/sag/static/js/runtime-main.abffe990.js",
+    "runtime-main.js.map": "/sag/static/js/runtime-main.abffe990.js.map",
+    "static/js/2.67b9ca22.chunk.js": "/sag/static/js/2.67b9ca22.chunk.js",
+    "static/js/2.67b9ca22.chunk.js.map": "/sag/static/js/2.67b9ca22.chunk.js.map",
+    "static/js/3.20afe944.chunk.js": "/sag/static/js/3.20afe944.chunk.js",
+    "static/js/3.20afe944.chunk.js.map": "/sag/static/js/3.20afe944.chunk.js.map",
+    "index.html": "/sag/index.html",
+    "static/css/main.9c673b48.chunk.css.map": "/sag/static/css/main.9c673b48.chunk.css.map",
+    "static/js/2.67b9ca22.chunk.js.LICENSE.txt": "/sag/static/js/2.67b9ca22.chunk.js.LICENSE.txt",
+    "static/media/laravelcms.d89c0e16.png": "/sag/static/media/laravelcms.d89c0e16.png",
+    "static/media/logo_sag_dark.da7c8967.png": "/sag/static/media/logo_sag_dark.da7c8967.png",
+    "static/media/pipe.0003124b.png": "/sag/static/media/pipe.0003124b.png",
+    "static/media/service-01.5f390fd2.jpg": "/sag/static/media/service-01.5f390fd2.jpg",
+    "static/media/service-02.ce5ada8f.jpg": "/sag/static/media/service-02.ce5ada8f.jpg",
+    "static/media/service-03.28e59e84.jpg": "/sag/static/media/service-03.28e59e84.jpg",
+    "static/media/web.673fe9da.png": "/sag/static/media/web.673fe9da.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abffe990.js",
+    "static/js/2.67b9ca22.chunk.js",
+    "static/css/main.9c673b48.chunk.css",
+    "static/js/main.98d89f93.chunk.js"
+  ]
+}
