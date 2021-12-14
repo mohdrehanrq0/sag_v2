@@ -10,10 +10,6 @@ import {motion} from 'framer-motion';
 
 
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export default function Navbar() {
   return (
       <motion.div className="header_div"
@@ -27,7 +23,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="javascript:void(0)">
+            <a href="/#">
               <span className="sr-only">Workflow</span>
               <img
                 className="h-12 w-auto sm:h-14"
@@ -44,18 +40,18 @@ export default function Navbar() {
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             
-            <a href="javascript:void(0)" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125	">
+            <a href="/#" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125	">
               About
             </a>
-            <a href="javascript:void(0)" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125">
+            <a href="/#" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125">
               Services
             </a>
-            <a href="javascript:void(0)" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125">
+            <a href="/#" className="text-base font-medium transition-all text-gray-500 hover:text-default-light transform hover:scale-125">
               Contact
             </a>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="javascript:void(0)" className="whitespace-nowrap text-base font-medium text-gray-500 ">
+            <a href="/#" className="whitespace-nowrap text-base font-medium text-gray-500 ">
               <button class="bg-text-light hover:bg-text text-white font-bold rounded-full">
               <i class="Phone is-animating"></i>
                </button>
@@ -96,21 +92,21 @@ export default function Navbar() {
                 <nav className="grid gap-y-8">
                   
                     <a
-                      href="#"
+                      href="/#"
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       {/* <item.icon className="flex-shrink-0 h-6 w-6 text-cyan-600" aria-hidden="true" /> */}
                       <span className="ml-3 text-base font-medium text-gray-500 hover:text-default-light">About</span>
                     </a>
                     <a
-                      href="#"
+                      href="/#"
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       {/* <item.icon className="flex-shrink-0 h-6 w-6 text-cyan-600" aria-hidden="true" /> */}
                       <span className="ml-3 text-base font-medium text-gray-500 hover:text-default-light">Services</span>
                     </a>
                     <a
-                      href="#"
+                      href="/#"
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       {/* <item.icon className="flex-shrink-0 h-6 w-6 text-cyan-600" aria-hidden="true" /> */}

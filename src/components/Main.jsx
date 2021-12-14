@@ -17,13 +17,13 @@ function Main() {
                    <h1 className="text-5xl mt-2 md:mt-0 md:text-7xl text-left text-default font-mono antialiased font-bold mb-0 leading-10">Namaste <span className="font-normal">🙏</span></h1>
                    <p className=" text-2xl my-5">We are a team of developer who design and build a awesome products.</p>
                    <div className="flex">
-                   <a href="javascript:void(0)" className="whitespace-nowrap text-base font-medium mr-5 text-gray-500 md:hidden">
+                   <a href="/#" className="whitespace-nowrap text-base font-medium mr-5 text-gray-500 md:hidden">
                         <button class="bg-text-light hover:bg-text text-white font-bold rounded-full">
                             <i class="Phone is-animating"></i>
                         </button>
                     </a>
                     <motion.a 
-                        href="javascript:void(0)" 
+                        href="/#" 
                         className="whitespace-nowrap text-base font-medium text-gray-500 mt-2 md:mt-0"
                         whileHover = {{scale: 1.1}}
                         whileTap = {{scale: 0.9}}

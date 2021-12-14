@@ -190,7 +190,7 @@ $text-light: #65e0f3;
 
 
   @media (max-width: 768px){
-    .main_container{
+    .main_root{
       padding: 0 12px;
     }
   }
@@ -278,4 +278,18 @@ $text-light: #65e0f3;
     .card_wrapper .card .content_div p{
       font-size: 16px;
     }
+  }
+  .pcard_box{
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .wrapper:hover .pcard_box{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .img_about img{
+    height: 400px !important;
+    object-fit: cover;
   }
